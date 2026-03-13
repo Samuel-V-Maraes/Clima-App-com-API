@@ -5,7 +5,7 @@ const resultado = document.getElementById("resultado")
 
 resultado.innerHTML = "⏳ Carregando..."
 
-const apiKey = "3e27fe2d748565d70e545919213c176d"
+const apiKey = "SUA_API_KEY"
 
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric&lang=pt_br`
 
